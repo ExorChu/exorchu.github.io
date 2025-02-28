@@ -1,151 +1,150 @@
 <!DOCTYPE html>
-<html style="background-color:#000000;">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony Chu - Another Game Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Anthony Chu - Game Developer</title>
 </head>
 
-<body style="color:rgb(34,34,34);">
-    <nav class="navbar navbar-light navbar-expand-md sticky-top navbar-fixed-top navigation-clean-button" style="background-color:rgb(34,34,34);">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="color:rgba(255,255,255,0.9);margin:0px;"> Anthony Chu - Game Developer<br></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto nav-right">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#about" style="color:rgba(255,255,255,0.9);">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#projects" style="color:rgba(255,255,255,0.9);">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#contact" style="color:rgba(255,255,255,0.9);">Contact</a></li>
-                </ul>
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fas fa-code"></i>
         </div>
+        <div class="links">
+            <a href="#" class="active">Anthony Chu - Game developer</a>
         </div>
-    </nav><div id="about" style="background-color:#525e64;">
-    <div class="container">
-        <h4 class="text-center" style="padding:20px;color:rgb(204,204,204);background-color:#66747b;">About me</h4>
-        <article style="padding:0px;color:rgb(221,221,221);">
-            <div>I'm a Senior Unity Developer, with 8+ years of experience working with Unity 
-Engine, and other related technologies. I look forward to becoming part of a team 	
-where I can use all of my strengths, especially in game optimization and game 
-networking.<br />
-			<br />- Strong knowledge in C#, especially low-level things. Also can learn to work with C++ in a short time.
-			<br />- Strong knowledge in game optimization overall, and low-level things, can be applied in Unity or any other game engines.
-			<br />- Strong knowledge in game networking, especially in using Photon-related products. Can write custom networking solution using several network libraries.
-			<br />- Have knowledge in backend programming. Can code & deploy web api servers using ASP. NetCore, MySQL / PostgreSQL / Mongo / Redis.
-			<br />- Have knowledge integrating Playfab into Unity, also with its serverless technology.
-			<br />- Have knowledge in managing people.
-			<br />- English: ok-to-good writing skill, not-too-bad speaking skill. Overall, I can communicate well.
-			<br />My detailed cv: <a href="https://drive.google.com/file/d/1WoLIjJxZAqvPk8NRfZkFGr2D7O3AZJ33">CV</a>
-			</div>
-        </article>
+    </nav>
+
+    <div class="about">
+        <div class="left">
+            <h3>Unity Game Developer</h3>
+            <div class="info">
+                <h2>I am Anthony Chu</h2>
+                <p>I build optimized and connected gaming experiences as an Unity developer.</p>
+                <div class="buttons">
+                    <button class="hire" onclick="window.location.href='https://www.linkedin.com/in/anthonychuvn/';">
+                        My LinkedIn <i class="fas fa-plus"></i>
+                    </button>
+                    <a href="assets/anthonychu_CV.pdf" download>
+                        <button class="email">
+                            Download CV <i class="far fa-copy"></i>
+                        </button>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
+            <img src="assets/avatar_ac.jpg">
+        </div>
     </div>
-</div><div id="projects" style="background-color:#525e64;">
-    <div class="container" style="padding:15px 15px;">
-        <h4 class="text-center" style="padding:20px;color:rgb(204,204,204);background-color:#66747b;">Projects</h4>
-        <div class="intro"></div>
-        <div class="row mx-auto articles" style="margin:20px;">
-            <div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://drive.google.com/file/d/1LDURS8JUd75dH1DOsWH8EyIR_WcSHxwD/view?usp=drive_link" style="padding:auto;"><img src="assets/img/Icons/icon_the_street_life.png" class="rounded img-fluid" style="padding:0;" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">Gangstar War: Thief City</h4>
-                <div>Singleplayer, sandbox
-				<br />Inspired by GTA
-				<br />Dashbit
-				<br />
-				<br />Unity
-				</div><em class="align-content-end" style="color:rgb(0,197,241);">Available</em></div>
-            <div
-                class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://youtu.be/StawAFXe9nA" style="padding:auto;"><img src="assets/img/Icons/icon_city_fury.png" class="img-fluid" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">City Fury Online</h4>
-                <div>Online multiplayer, 100-player sandbox
-				<br />Inspired by GTA-Online
-				<br />Dashbit
-				<br />
-				<br />Unity,.NET Core,MySQL,Mongo,Redis
-				</div><em style="color:rgb(0,197,241);">In development</em></div>
-			<div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://planetsandbox.io/" style="padding:auto;"><img src="assets/img/Icons/icon_planet_sandbox.png" class="img-fluid" /></a>
-				<h4 class="name" style="color:rgb(204,204,204);">Planet Sandbox</h4>
-				<div>Online Multiplayer
-				<br />NFT Game
-				<br />The Minders Studio
-				<br />
-				<br />Unity,.Net Core, Mongo, Redis
-				</div>
-				<div><em style="color:rgb(0,197,241);">Available</em></div>
+    
+    <div class="works">
+        <div class="left">
+            <h3><i class="fas fa-circle"></i> Recent Works</h3>
+            <div class="works-list">
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Head of Studio</h5>
+                        <p>2020 - Present</p>
+                    </div>
+                    <p>Dashbit Interactive</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Game Network Engineer</h5>
+                        <p>2024 - 2025</p>
+                    </div>
+                    <p>Greensky Games</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Chief Technology Officer</h5>
+                        <p>2021 - 2024</p>
+                    </div>
+                    <p>The Minders Studio</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Head of development</h5>
+                        <p>2021 - 2023</p>
+                    </div>
+                    <p>Joywire</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Founder</h5>
+                        <p>2017 - 2024</p>
+                    </div>
+                    <p>Epic Runes</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Game Developer</h5>
+                        <p>2017 - 2020</p>
+                    </div>
+                    <p>Maleo</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Game Developer</h5>
+                        <p>2015 - 2017</p>
+                    </div>
+                    <p>Sugame</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Unity Tech lead</h5>
+                        <p>2014 - 2015</p>
+                    </div>
+                    <p>Jupitech Solutions Pte Ltd</p>
+                </div>
+            </div>
         </div>
-		<div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://play.google.com/store/apps/details?id=com.maleo.bussimulatorid&hl=en_US" style="padding:auto;"><img src="assets/img/Icons/icon_bussid.png" class="rounded img-fluid" style="padding:0;" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">Bus Simulator Indonesia</h4>
-                <div>Driving Simulator
-				<br /> Online with Photon
-				<br />Maleo ( Freelance )
-				<br />
-				<br />Unity, Playfab
-				</div><em class="align-content-end" style="color:rgb(0,197,241);">Available</em></div>
-            <div
-                class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://play.google.com/store/apps/details?id=com.XonStudio.UniversalSandbox" style="padding:auto;"><img src="assets/img/Icons/icon_umod.png" class="img-fluid" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">Ultimate Sandbox</h4>
-                <div>Online multiplayer physics sandbox
-				<br />Inspired by Garry's Mods
-				<br />Dashbit
-				<br />
-				<br />Unity,Photon PUN,Playfab,.Net Core
-				</div><em style="color:rgb(0,197,241);">Cancelled</em></div>
-			<div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://play.google.com/store/apps/details?id=com.dashbit.trashtrucksim" style="padding:auto;"><img src="assets/img/Icons/icon_trash_truck.png" class="img-fluid" /></a>
-				<h4 class="name" style="color:rgb(204,204,204);">Trash Truck Simulator</h4>
-				<div>Driving Simulator
-				<br />Epic Runes
-				<br />
-				<br />Unity, Playfab
-				</div>
-				<div><em style="color:rgb(0,197,241);">Available</em></div>
+
+        <div class="right">
+            <div class="item">
+                <a href="#">About me</a>
+                <p>I have been making games with Unity since 2013, with most of my projects focused on mobile games. 
+                    I specialize in game optimization and have experience developing multiplayer games. 
+                    I am also familiar with backend development using .NET Core.
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">Game Development</a>
+                <p>With a decade of experience, I can help bringing game ideas to life, from concept to launch.</p>
+            </div>
+            <div class="item">
+                <a href="#">Game Networking</a>
+                <p>I have experience working with several networking libraries: Fusion, PUN, NGO, Mirror, SFS</p>
+            </div>
+            <div class="item">
+                <a href="#">Game Optimization</a>
+                <p>Optimizing game? It's part of my daily routine.</p>
+            </div>
+            <div class="item">
+                <a href="#">In a team</a>
+                <p>I can work independently or collaborate effectively as part of a team. I also mentor and support new developers.</p>
+            </div>
         </div>
-		<div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="https://play.google.com/store/apps/details?id=com.enet.grindingquestre" style="padding:auto;"><img src="assets/img/Icons/icon_quest.png" class="img-fluid" /></a>
-				<h4 class="name" style="color:rgb(204,204,204);">Grinding Quest</h4>
-				<div>Idle RPG
-				<br />Async online battle
-				<br />Diablo 2 style itemization
-				<br />Epic Runes
-				<br />
-				<br />Unity, PHP, MySQL
-				</div>
-				<div><em style="color:rgb(0,197,241);">Available</em></div>
-        </div>
-		<div class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="#" style="padding:auto;"><img src="assets/img/Icons/icon_league.png" class="rounded img-fluid" style="padding:0;" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">Grinding League</h4>
-                <div>Online multiplayer 3v3
-				<br />Brawlstars-liked, pixelate
-				<br />Epic Runes
-				<br />
-				<br />Unity, Custom Networking, PHP, MySQL
-				</div><em class="align-content-end" style="color:rgb(0,197,241);">Cancelled</em></div>
-            <div
-                class="col-sm-6 col-md-4 item" style="color:rgb(221,221,221);"><a href="#" style="padding:auto;"><img src="assets/img/Icons/icon_guild.png" class="img-fluid" /></a>
-                <h4 class="name" style="color:rgb(204,204,204);">Grinding Guild</h4>
-                <div>Online RPG Team Management
-				<br />Realtime combat, D2 itemization
-				<br />Epic Runes
-				<br />
-				<br />Unity, .NET Core,MySQL
-				</div><em style="color:rgb(0,197,241);">Cancelled</em></div>
-			
+
     </div>
-	<article style="padding:0px;color:rgb(221,221,221);">
-	And several hyper casual games
-	</article>
-</div>
-</div><div id="contact" style="background-color:#525e64;">
-    <div class="container">
-        <h4 class="text-center" style="padding:20px;color:rgb(204,204,204);background-color:#66747b;">Contact</h4>
-        <article style="padding:0px;color:rgb(221,221,221);font-size:20px;">
-            <div>
-			<br />Email: <a href="mailto:anhct@epicrunes.com">anhct@epicrunes.com</a> 
-			<br />Skype: exor.studio
-			<br />Linkedin: <a href="https://www.linkedin.com/in/anthonychuvn">Anthony Chu</a><br /><br /><br /><br /><br /><br /><br /><br /></div>
-        </article>
-    </div>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+    <footer>
+        <a href="#">My Portfolio</a>
+        <div class="socials">
+            <a href="https://github.com/ExorChu">Github</a>
+            <a href="https://www.youtube.com/channel/UCxG3q58-QjIDcCxqmEVwAlQ">Youtube</a>
+            <a href="https://www.linkedin.com/in/anthonychuvn/">LinkedIn</a>
+        </div>
+        <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
+    </footer>
+
 </body>
 
 </html>
